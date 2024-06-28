@@ -1,6 +1,6 @@
-# flutter_graphql
+# Basic blog app using Hygraph and Flutter
 
-A new Flutter project.
+A modified version of: [Guided tutorial on how to use GraphQL with Flutter](https://hygraph.com/blog/flutter-graphql#graphql-in-flutter)
 
 ## Getting Started
 
