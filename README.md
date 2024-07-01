@@ -4,7 +4,16 @@ A modified version of: [Guided tutorial on how to use GraphQL with Flutter](http
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repo
+
+`npx degit https://github.com/hygraph/flutter-hygraph-blog.git`
+
+2. Navigate to the root of your project by entering:  `cd flutter-hygraph-blog`
+
+3.  Start your flutter app
+`flutter run`
+
+This project is a starting point for a Flutter application using content from Hygraph.
 
 A few resources to get you started if this is your first Flutter project:
 
