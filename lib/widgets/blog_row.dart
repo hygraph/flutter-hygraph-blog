@@ -17,7 +17,7 @@ class BlogRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(7.0),
+      padding: const EdgeInsets.all(8.0),
       child: Row(
         children: [
           Expanded(
@@ -26,8 +26,8 @@ class BlogRow extends StatelessWidget {
             child: coverURL != null
                 ? Image.network(
                     coverURL,
-                    width: 90,
-                    height: 90,
+                    width: 65,
+                    height: 65,
                   )
                 : const FlutterLogo(),
             // FlutterLogo(),
@@ -42,7 +42,7 @@ class BlogRow extends StatelessWidget {
                   style: Theme.of(context)
                       .textTheme
                       .titleLarge
-                      ?.copyWith(fontWeight: FontWeight.bold, fontSize: 18),
+                      ?.copyWith(fontWeight: FontWeight.bold, fontSize: 14),
                 ),
                 const SizedBox(
                   height: 10,
@@ -52,7 +52,7 @@ class BlogRow extends StatelessWidget {
                   style: Theme.of(context)
                       .textTheme
                       .bodyMedium
-                      ?.copyWith(fontSize: 14),
+                      ?.copyWith(fontSize: 12),
                 ),
                 Text(
                   "By $authorName",

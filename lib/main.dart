@@ -18,7 +18,7 @@ final ValueNotifier<GraphQLClient> client = ValueNotifier<GraphQLClient>(
 );
 
 const String query = """
-query Content{
+query Posts{
   posts{
     id
     publishedAt
